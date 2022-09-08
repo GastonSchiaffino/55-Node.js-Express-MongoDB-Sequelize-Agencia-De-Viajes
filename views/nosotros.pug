@@ -1,6 +1,33 @@
 extends ./layout/index
 
 block contenido
-    p Nosotros
+    main.container.mt-5 
+        .row 
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen Nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Somos líderes en atención. Creemos que viajar nos transforma, porque nos permite encontrar la mejor versión de nosotros mismos. Por eso, ofrecemos el mejor servicio de atención personalizada para acompañarte ANTES, DURANTE y DESPUÉS de tu viaje: por chat en la web, por teléfono las 24 H y en más de 100 sucursales en expansión.
 
-    img(src="img/cupon.jpg")
+                p Elegí tu vuelo, tu hotel y tus actividades para conocer al máximo cada lugar. U optá por un paquete, para que sólo te preocupes por disfrutar con todo resuelto. Organizá cada etapa de tu viaje desde nuestra web o nuestra app, plataformas seguras, intuitivas y fáciles de usar.
+                
+                
+                p Dejá tu viaje en manos de un Experto. Nuestros Expertos organizan tus vacaciones según tus gustos, preferencias y presupuesto, con descuentos exclusivos y el mejor asesoramiento. Son personas reales, como vos, apasionados por los viajes y con una sólida experiencia y gran conocimiento en uno o más destinos del mundo.
+    
+    .listado-iconos     
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Ofrecemos un sistema de seguridad que permite la protección del turista durante el desplazamiento por los distintos establecimientos de servicios turísticos y recreativos (hotel, restaurante, agencia de viajes, etc.) del destino turístico.
+                
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Nuestros viajeros escogen entre sus destinos favoritos dentro de nuestra agencia y elaboran un ranking para que sirva de guía. Ofrecemos desde los lugares más conocidos hasta los mas exóticos.  Con nosotros viajas por todo el mundo. 
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p Encontra las mejores ofertas para tus viajes. Disponemos de los paquetes de viaje mas completos para no tengas que pensar en nada mas que en disfrutar. Y si tu presupuesto esta ajustado tenemos excelentes ofertas low cost y paquetes que garantizan unas vacaciones increibles.
+            
